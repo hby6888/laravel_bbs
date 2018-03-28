@@ -12,7 +12,16 @@
     <script>
         $(document).ready(function(){
             var editor = new Simditor({
-                textarea: $('#editor'),
+                textarea: $('#editor'), //编辑器
+                //编辑器图片
+                upload: {
+                    url: '{{ route('topics.upload_image') }}',
+                    params: { _token: '{{ csrf_token() }}' },
+                    fileKey: 'upload_file',
+                    connectionCount: 3,  //最多同时上传3张
+                    leaveConfirm: '文件上传中，关闭此页面将取消上传。'
+                },
+                pasteImage: true, //图片是否支持黏贴上传
             });
         });
     </script>
