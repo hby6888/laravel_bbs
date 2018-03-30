@@ -43,6 +43,10 @@ class ComposerStaticInit642cc13d72ea4be074b3b8c1281f9170
             'Whoops\\' => 7,
             'Webmozart\\Assert\\' => 17,
         ),
+        'V' => 
+        array (
+            'VIACreative\\SudoSu\\' => 19,
+        ),
         'T' => 
         array (
             'TijsVerkoyen\\CssToInlineStyles\\' => 31,
@@ -165,6 +169,10 @@ class ComposerStaticInit642cc13d72ea4be074b3b8c1281f9170
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'VIACreative\\SudoSu\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/viacreative/sudo-su/src',
         ),
         'TijsVerkoyen\\CssToInlineStyles\\' => 
         array (
@@ -4679,6 +4687,10 @@ class ComposerStaticInit642cc13d72ea4be074b3b8c1281f9170
         'TopicsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/TopicsTableSeeder.php',
         'TypeError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/TypeError.php',
         'UsersTableSeeder' => __DIR__ . '/../..' . '/database/seeds/UsersTableSeeder.php',
+        'VIACreative\\SudoSu\\Controllers\\SudoSuController' => __DIR__ . '/..' . '/viacreative/sudo-su/src/Controllers/SudoSuController.php',
+        'VIACreative\\SudoSu\\RouteServiceProvider' => __DIR__ . '/..' . '/viacreative/sudo-su/src/RouteServiceProvider.php',
+        'VIACreative\\SudoSu\\ServiceProvider' => __DIR__ . '/..' . '/viacreative/sudo-su/src/ServiceProvider.php',
+        'VIACreative\\SudoSu\\SudoSu' => __DIR__ . '/..' . '/viacreative/sudo-su/src/SudoSu.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'Whoops\\Exception\\ErrorException' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
         'Whoops\\Exception\\Formatter' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/Formatter.php',
